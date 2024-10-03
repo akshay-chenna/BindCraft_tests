@@ -48,7 +48,7 @@ install_dir=$(pwd)
 
 ### BindCraft install
 printf "Installing BindCraft environment\n"
-#$pkg_manager create --name BindCraft python=3.9 -y
+$pkg_manager install python=3.9 -y
 #source ${conda_env}/bin/activate ${conda_env}/envs/BindCraft
 
 # install ColabDesign
